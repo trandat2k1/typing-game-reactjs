@@ -3,3 +3,5 @@
 * React JS
 * HTML
 * CSS
+### Intro :
+![intro](https://github.com/trandat2k1/typing-game-reactjs/blob/main/intro.jpg)
