@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(86 86 86 / 80%);
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.type__racer {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+}
+.new-word {
+  display: block;
+  text-align: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+.time {
+  height: 200px;
+  background-color: rgb(182, 181, 128);
+  position: relative;
+}
+.time__down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border: 4px solid #ff393985;
+  border-radius: 50%;
+  font-size: 26px;
+}
+.start {
+  background-color: #5f9ea0;
+  display: flex;
+  justify-content: flex-end;
+}
+.button__start {
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(194, 146, 92);
+}
+.input__text {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding-left: 16px;
+}
+.input__text:focus {
+  outline: none;
+}
+.result {
+  width: 40%;
+  height: 100vh;
+  background-color:thistle
+}
+.result__lable {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: rgb(180, 131, 131);
+  margin: 0;
+  padding: 10px;
+}
+.result__area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.result__correct>span {
+  display: block;
+  padding: 10px 5px;
+}
+.result__wrong >span{
+  display: block;
+  padding: 10px 5px;
+}
